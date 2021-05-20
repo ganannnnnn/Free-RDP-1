@@ -18,21 +18,21 @@ jobs:
 
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
 
-        Invoke-WebRequest https://raw.githubusercontent.com/EmanSaputra/FreeRDP/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Yashraj-520/FreeRDP/main/start.bat -OutFile start.bat
 
-        Invoke-WebRequest https://raw.githubusercontent.com/EmanSaputra/FreeRDP/main/wallpaper.png -OutFile wallpaper.bmp
+        Invoke-WebRequest https://raw.githubusercontent.com/Yashraj-520/FreeRDP/main/wallpaper.png -OutFile wallpaper.bmp
 
-        Invoke-WebRequest https://raw.githubusercontent.com/EmanSaputra/FreeRDP/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Yashraj-520/FreeRDP/main/wallpaper.bat -OutFile wallpaper.bat
 
-        Invoke-WebRequest https://raw.githubusercontent.com/EmanSaputra/FreeRDP/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Yashraj-520/FreeRDP/main/loop.bat -OutFile loop.bat
 
     - name: Mendownload Launcher.
 
       run: |
 
-        Invoke-WebRequest https://raw.githubusercontent.com/EmanSaputra/FreeRDP/main/launcher/Node.js.lnk -OutFile Node.js.lnk
+        Invoke-WebRequest https://raw.githubusercontent.com/Yashraj-520/FreeRDP/main/launcher/Node.js.lnk -OutFile Node.js.lnk
 
-        Invoke-WebRequest https://raw.githubusercontent.com/EmanSaputra/FreeRDP/main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://raw.githubusercontent.com/Yashraj-520/FreeRDP/main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
 
         Invoke-WebRequest https://github.com/EmanSaputra/FreeRDP/raw/main/launcher/Ganti%20Password.exe -OutFile "Ganti Password.exe"
 
